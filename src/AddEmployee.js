@@ -74,13 +74,21 @@ function AddEmployee() {
           <label htmlFor='inputDescription' className='form-label'>
             Description
           </label>
-          <input
+          <textarea
+    className='form-control'
+    id='inputDescription'
+    rows='4' // Adjust the number of rows as needed
+    autoComplete='off'
+    onChange={(e) => setData({ ...data, description: e.target.value })}
+  />
+
+          {/* <input
             type='text'
             className='form-control'
             id='inputDescription'
             autoComplete='off'
             onChange={(e) => setData({ ...data, description: e.target.value })}
-          />
+          /> */}
         </div>
         <div className='col-12'>
           <button type='submit' className='btn btn-primary'>

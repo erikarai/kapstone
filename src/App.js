@@ -6,7 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Employee from './Employee'
 import Home from './components/Home'
 import AddEmployee from './AddEmployee'
+<<<<<<< HEAD
 
+=======
+import ViewUserProfile from './ViewUserProfile'
+import UpdateProfile from './components/UpdateProfile';
+>>>>>>> 2744b2dbc427ad7674271c6a51616b286cf3874a
 
 
 function App() {
@@ -18,7 +23,12 @@ function App() {
     <Route path="/Employee" element={<Employee/>}></Route>
     <Route path="/Home" element={<Home/>}></Route>
     <Route path="/create" element={<AddEmployee/>}></Route>
+<<<<<<< HEAD
     
+=======
+    <Route path="/profile" element={<ViewUserProfile/>}></Route>
+    <Route path="/update" element={<UpdateProfile/>}></Route>
+>>>>>>> 2744b2dbc427ad7674271c6a51616b286cf3874a
   </Routes>
   </BrowserRouter>
   );
