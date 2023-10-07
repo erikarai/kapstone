@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Dashboard from './components/Dashboard'
 import Sidebar from './components/Sidebar'
 
 function Employee() {
   return (
     
     <div className='px-5 py-3'>
-      <Dashboard />
       {/* <div className='d-flex justify-content-center mt-2'>
         <h3>Participants List</h3>
       </div> */}
